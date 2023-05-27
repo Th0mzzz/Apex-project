@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family:var(--apex-light);
+    
+}
+
+/* Fontes do Apex */
+@font-face {
+    font-family:apex-regular;
+    src: url(../apex-legends/Apex-Regular.ttf);
+}
+@font-face {
+    font-family:apex-bold;
+    src: url(../apex-legends/Apex-Bold.ttf);
+}
+@font-face {
+    font-family:apex-light;
+    src: url(../apex-legends/Apex-Light.ttf);
+}
+
+:root{
+
+/* Fontes */
+--apex-light:Apex-Light;
+--apex-regular:apex-regular;
+--apex-bold:apex-bold;
+
+
+}
+
+
+
+
