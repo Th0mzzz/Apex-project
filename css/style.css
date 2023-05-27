@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    
+}
+body{
+    overflow: hidden;
+    background: ghostwhite;
+}
+
+#aside-container{
+    width: 80px;
+    height: 100vh;
+    display: flex;
+    background: rgba(0, 0, 0, 0.801);
+}
+.classes{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: .5rem;
+}
+.classe{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    white-space: nowrap;
+
+}
+.classe img{
+    opacity: .8;
+    width: 100%;
+    height: auto;
+}
