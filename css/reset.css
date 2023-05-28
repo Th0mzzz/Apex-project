@@ -6,6 +6,12 @@
     font-family:var(--apex-light);
     
 }
+body{
+    background: #00000057;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+}
 
 /* Fontes do Apex */
 @font-face {
@@ -20,14 +26,32 @@
     font-family:apex-light;
     src: url(../apex-legends/Apex-Light.ttf);
 }
-
+@font-face {
+    font-family: apex-black;
+    src: url(../apex-legends/Apex-Black.ttf);
+}
+@font-face {
+    font-family:apex-extrabold;
+    src: url(../apex-legends/Apex-ExtraBold.ttf);
+}
 :root{
 
 /* Fontes */
+
 --apex-light:Apex-Light;
 --apex-regular:apex-regular;
 --apex-bold:apex-bold;
+--apex-extrabold:apex-extrabold;
 
+/* Cores */
+--branco-principal:white;
+--preto-menu:rgba(0, 0, 0, 0.7);
+--preto-fundo:#000000;
+--vermelho-assault:#f04735;
+--amarelo-misher:#b59926;
+--roxo-recon:#9e34eb;
+--azul-support:#206fe3;
+--verde-controller:#38bb21;
 
 }
 
