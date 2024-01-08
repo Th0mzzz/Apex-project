@@ -16,23 +16,23 @@ body{
 /* Fontes do Apex */
 @font-face {
     font-family:apex-regular;
-    src: url(../apex-legends/Apex-Regular.ttf);
+    src: url(../apex-fonts/Apex-Regular.ttf);
 }
 @font-face {
     font-family:apex-bold;
-    src: url(../apex-legends/Apex-Bold.ttf);
+    src: url(../apex-fonts/Apex-Bold.ttf);
 }
 @font-face {
     font-family:apex-light;
-    src: url(../apex-legends/Apex-Light.ttf);
+    src: url(../apex-fonts/Apex-Light.ttf);
 }
 @font-face {
     font-family: apex-black;
-    src: url(../apex-legends/Apex-Black.ttf);
+    src: url(../apex-fonts/Apex-Black.ttf);
 }
 @font-face {
     font-family:apex-extrabold;
-    src: url(../apex-legends/Apex-ExtraBold.ttf);
+    src: url(../apex-fonts/Apex-ExtraBold.ttf);
 }
 :root{
 
@@ -44,8 +44,8 @@ body{
 --apex-extrabold:apex-extrabold;
 
 /* Cores */
---branco-principal:white;
---preto-menu:rgba(0, 0, 0, 0.7);
+--branco-principal:#ffffff;
+--preto-menu:#000000b3;
 --preto-fundo:#000000;
 --vermelho-assault:#f04735;
 --amarelo-misher:#b59926;

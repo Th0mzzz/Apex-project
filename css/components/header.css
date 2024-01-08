@@ -1,0 +1,16 @@
+.nav-classes {
+    width: 100%;
+    height: auto;
+    max-height: 8rem;
+    display: flex;
+    background: linear-gradient(to bottom, var(--preto-menu), var(--preto-fundo));
+}
+
+.classe{
+    position: relative;
+    height: 100%;
+}
+
+.classe img{
+    width: 80px;
+}
